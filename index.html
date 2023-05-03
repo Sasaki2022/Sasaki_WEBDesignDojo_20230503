@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EBETSU Caffee</title>
+    <link rel="stylesheet" href="./css/reset.css.css">
+    <link rel="stylesheet" href="./css/style.css" media="screen and (min-width:600px)">
+    <link rel="stylesheet" href="./css/mobile.css.css" media="screen and (max-width:599px)">
+
+<!-- AOS.js -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- header>img+nav+div -->
+    <header>
+        <img src="./img/logo.png" alt="">
+        <nav>
+            <!--ul.navigation>(li.navigation__list)-->
+            <!--ul.navigation>(li.navigation__list)*3-->
+            <ul class="navigation">
+                <li class="navigation__list"><a href="#menu">Menu</a></li>
+                <li class="navigation__list"><a href="#information">Information</a></li>
+                <li class="navigation__list"><a href="#shop">Shop</a></li>
+            </ul>
+            
+        </nav>
+        <div class="sns">
+            <!-- (a.sns__img>img)*2 -->
+            <a href="" class="sns__img"><img src="./img/instagram.png" alt=""></a>
+            <a href="" class="sns__img"><img src="./img/twitter.png" alt=""></a>
+        </div>
+    </header>
+
+<!-- .content>main.main_visual+section -->
+<div class="content">
+    <main>
+        <div class="main-visual"></div>
+        <section class="section" id="menu">
+            <h2 class="section__title">Menu</h2>
+            <div class="menu">
+                <img data-aos="fade-up" data-aos-duration="500" src="./img/photo02.jpg" alt="" class="menu__img">
+                <img data-aos="fade-up" data-aos-duration="1000" src="./img/photo03.jpg" alt="" class="menu__img">
+                <img data-aos="fade-up" data-aos-duration="1500" src="./img/photo04.jpg" alt="" class="menu__img">
+            </div>
+        </section>
+    
+
+
+<section class="section information" id="information">
+    <h2 class="section__title">Information</h2>
+    <div class="blog-container">
+        <hr>
+        <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./img/photo05.jpg" alt="" class="blog__img">
+            <div class="blog__content">
+                <span class="blog__date">2023.05.02</span>
+                <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+            </div>
+        <!-- article>img.blog__img -->
+        </article>
+
+        <hr>
+        <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./img/photo06.jpg" alt="" class="blog__img">
+            <div class="blog__content">
+                <span class="blog__date">2023.05.02</span>
+                <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+            </div>
+        <!-- article>img.blog__img -->
+        </article>
+
+        <hr>
+        <article class="blog" data-aos="fade-up" data-aos-duration="1000">
+            <img src="./img/photo07.jpg" alt="" class="blog__img">
+            <div class="blog__content">
+                <span class="blog__date">2023.05.02</span>
+                <p class="blog__text">インフォメーション<br>サンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキストサンプルテキスト</p>
+            </div>
+        <!-- article>img.blog__img -->
+        </article>
+    </div>
+</section>
+
+
+<!-- section.section#shop2 -->
+<section class="section" id="shop">
+    <h2 class="section__title">Shop</h2>
+    <h2 class="section__title">
+        <div class="shop" data-aos="zoom-in" data-aos-duration="1000">
+            <img src="./img/photo08.jpg" alt="" class="shop__img">
+            <div class="shop-info">
+                <h3>EBETSU Coffe</h3>
+                <p>営業時間<br>7:00～21:30(LO 21:00)</p>
+                <p>所在地<br>北海道江別市大麻東町13-6</p>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2914.205827929545!2d141.49296585632092!3d43.07916791517843!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x5f0b2db0de55b37b%3A0x6e2466ba2aad9f8!2z44CSMDY5LTA4NTIg5YyX5rW36YGT5rGf5Yil5biC5aSn6bq75p2x55S677yR77yT4oiS77yY!5e0!3m2!1sja!2sjp!4v1683006162856!5m2!1sja!2sjp" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </h2>
+</section>
+
+</main>
+</div>
+
+
+<footer>
+    <p class="copyright">© 2023 EBETSU Coffee</p>
+</footer>
+
+<!-- AOS.js -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
+
+</body>
+</html>
